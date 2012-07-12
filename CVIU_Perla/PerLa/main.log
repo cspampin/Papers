@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.2)  6 JUL 2012 19:06
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.2)  12 JUL 2012 19:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -280,10 +280,10 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 (./introduction-concetto.tex
 
-Package natbib Warning: Citation `speech' on page 1 undefined on input line 3.
+Package natbib Warning: Citation `speech' on page 1 undefined on input line 5.
 
 
-Package natbib Warning: Citation `bio' on page 1 undefined on input line 3.
+Package natbib Warning: Citation `bio' on page 1 undefined on input line 5.
 
 <elsevier-logo-3p.pdf, id=1, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
@@ -294,7 +294,7 @@ File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 8.
+(Font)              size <17.28> substituted on input line 14.
 
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
@@ -312,6 +312,17 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 
  <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
 
+./introduction-concetto.tex:19: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \item L
+            imiti generici delle soluzioni esistenti
+? 
+
 ./introduction-concetto.tex:20: LaTeX Error: Lonely \item--perhaps a missing li
 st environment.
 
@@ -319,39 +330,57 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \item L
-            imiti generici delle soluzioni esistenti
-? 
-
-./introduction-concetto.tex:21: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \item O
+l.20 \item O
             biettivi della nostra ricerca
 ? 
 
-./introduction-concetto.tex:34: LaTeX Error: Lonely \item--perhaps a missing li
+./introduction-concetto.tex:28: LaTeX Error: Lonely \item--perhaps a missing li
 st environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \item D
+l.28 \item D
             escrizione del dataset F4K e quale impatto ha sulla ricerca sia ...
 
 ? 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
+
+LaTeX Warning: Reference `rel_work' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Reference `thesystem' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Reference `' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Reference `conclusion' on page 2 undefined on input line 41.
+
+
+./introduction-concetto.tex:43: LaTeX Error: \begin{document} ended by \end{ite
+mize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \end{itemize}
+                  
+? 
+./introduction-concetto.tex:43: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.43 \end{itemize}
+                  
+? 
 
 ./introduction-concetto.tex:47: LaTeX Error: Lonely \item--perhaps a missing li
 st environment.
@@ -360,56 +389,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \item D
-            escrizione del paper
-? 
-
-./introduction-concetto.tex:48: LaTeX Error: \begin{document} ended by \end{ite
-mize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \end{itemize}
-                  
-? 
-./introduction-concetto.tex:48: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.48 \end{itemize}
-                  
-? 
-
-./introduction-concetto.tex:52: LaTeX Error: Lonely \item--perhaps a missing li
-st environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 \item M
+l.47 \item M
             any available datasets contain only a small number of objects an...
 
 ? 
+[2]
 
-./introduction-concetto.tex:53: LaTeX Error: Lonely \item--perhaps a missing li
+./introduction-concetto.tex:48: LaTeX Error: Lonely \item--perhaps a missing li
 st environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item M
+l.48 \item M
             ain features of the existing approaches (PETS, LabelMe, CalTech,...
 
 ? 
-[2]) (./detectGT.tex
+) (./detectGT.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[3]) (./recogGT.tex [4]
+[3] [4]) (./recogGT.tex
 ./recogGT.tex:21: Undefined control sequence.
 l.21 \todo
           {We close this section with a discussion of the quality of the lab...
@@ -434,15 +436,15 @@ l.43 \todo
 Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 5 undef
 ined on input line 52.
 
+[5]
 
-Package natbib Warning: Citation `zivkovic_recursive_2004' on page 5 undefined 
+Package natbib Warning: Citation `zivkovic_recursive_2004' on page 6 undefined 
 on input line 61.
 
 
-Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 5 undef
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 6 undef
 ined on input line 70.
 
-[5]
 
 Package natbib Warning: Citation `frey_clustering_2007' on page 6 undefined on 
 input line 86.
@@ -455,19 +457,21 @@ ined on input line 87.
 Package natbib Warning: Citation `frey_clustering_2007' on page 6 undefined on 
 input line 88.
 
+[6]
 ./recogGT.tex:99: Undefined control sequence.
 l.99 the clusters together.\todo
                                 {What does ``link the clusters together'' me...
 
 ? 
 
-Package natbib Warning: Citation `frey_clustering_2007' on page 6 undefined on 
+Package natbib Warning: Citation `frey_clustering_2007' on page 7 undefined on 
 input line 100.
 
-<schematicfigureclusteringmethod.pdf, id=38, 796.9775pt x 597.23125pt>
+<schematicfigureclusteringmethod.pdf, id=43, 796.9775pt x 597.23125pt>
 File: schematicfigureclusteringmethod.pdf Graphic file (type pdf)
 
-<use schematicfigureclusteringmethod.pdf> [6]
+<use schematicfigureclusteringmethod.pdf> [7 <./schematicfigureclusteringmethod
+.pdf>]
 ./recogGT.tex:137: Undefined control sequence.
 l.137 \todo
            {Terms ``cluster'' and ``label'' alrady occured in the begining o...
@@ -483,7 +487,7 @@ Type  H <return>  for immediate help.
 l.153 \includegraphics[width=3in]{selectdiffish}
                                                 
 ? 
-[7 <./schematicfigureclusteringmethod.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 162--171
 
  []
@@ -503,6 +507,7 @@ l.174 \includegraphics[width=3in]{selectfish}
 l.206 ...ages that are not part of a cluster \todo
                                                   {to a label?}.
 ? 
+[9]
 
 ./recogGT.tex:242: LaTeX Error: File `expertlabel' not found.
 
@@ -513,7 +518,6 @@ Type  H <return>  for immediate help.
 l.242 ...graphics[width=.5\textwidth]{expertlabel}
                                                   
 ? 
-[9]
 
 ./recogGT.tex:275: LaTeX Error: File `exp_disagree' not found.
 
@@ -534,6 +538,7 @@ Type  H <return>  for immediate help.
 l.287 ... = 0.3\textwidth]{nonexp_error_nonstrict}
                                                   
 ? 
+[10]
 ./recogGT.tex:314: Undefined control sequence.
 l.314 \todo
            {@Bas: why in my judgements 190 imgages are labeled by the biolog...
@@ -544,7 +549,6 @@ l.320 \todo
            {In case you are confused when checking the database: in the data...
 
 ? 
-[10]
 ./recogGT.tex:325: Undefined control sequence.
 l.325 \todo
            {I think we need to at least briefly discuss how many images we a...
@@ -558,11 +562,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 354--360
 
  []
 
-[11 <./distributionofdataset2.pdf>]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 381--389
 
  []
 
+[12 <./distributionofdataset2.pdf>]
 
 ./recogGT.tex:390: LaTeX Error: Environment comment undefined.
 
@@ -574,43 +579,43 @@ l.390 \begin{comment}
                      
 ? 
 
-Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 12 unde
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 13 unde
 fined on input line 403.
 
 
-Package natbib Warning: Citation `frey_clustering_2007' on page 12 undefined on
+Package natbib Warning: Citation `frey_clustering_2007' on page 13 undefined on
  input line 404.
 
 
-Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 12 unde
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 13 unde
 fined on input line 405.
 
 
-Package natbib Warning: Citation `zivkovic_recursive_2004' on page 12 undefined
+Package natbib Warning: Citation `zivkovic_recursive_2004' on page 13 undefined
  on input line 407.
 
 
-Package natbib Warning: Citation `zivkovic_recursive_2004' on page 12 undefined
+Package natbib Warning: Citation `zivkovic_recursive_2004' on page 13 undefined
  on input line 415.
 
 
-Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 12 unde
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 13 unde
 fined on input line 420.
 
-[12]
+[13]
 
-Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 13 unde
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 14 unde
 fined on input line 433.
 
 
-Package natbib Warning: Citation `frey_clustering_2007' on page 13 undefined on
+Package natbib Warning: Citation `frey_clustering_2007' on page 14 undefined on
  input line 434.
 
 
-Package natbib Warning: Citation `frey_clustering_2007' on page 13 undefined on
+Package natbib Warning: Citation `frey_clustering_2007' on page 14 undefined on
  input line 442.
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 462--466
 
  []
@@ -646,17 +651,20 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2908 strings out of 493747
- 38721 string characters out of 3143547
- 105746 words of memory out of 3000000
- 6120 multiletter control sequences out of 15000+200000
+ 2912 strings out of 493747
+ 38756 string characters out of 3143547
+ 103747 words of memory out of 3000000
+ 6124 multiletter control sequences out of 15000+200000
  9240 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,12n,31p,779b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,31p,779b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -669,7 +677,7 @@ l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
 xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (17 pages, 429117 bytes).
+Output written on main.pdf (17 pages, 430030 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams
