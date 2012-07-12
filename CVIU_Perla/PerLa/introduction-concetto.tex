@@ -1,0 +1,95 @@
+%\item Descrivere il dominio di applicazione \\
+During the last twenty years, we have assisted to a exponential progress in digital cameras, in network bandwidth and in information storage capacities, which has led to a proliferation of visual data content in the form of images and videos. 
+At the same time, powerful object detection and recognition approaches have been proposed \cite{}, \cite{}, \cite{} which, however, are not able to scale up to many scenarios and objects due mainly to the lack of large labeled training sets.  Indeed, as demonstrated in other research fields \cite{speech}, \cite{bio} the performance of classifiers increases dramatically when a conspicuous set of labeled training data is available. Moreover, ground truth data plays a central role not only for the development of algorithms but also for quantitative performance evaluation, which has also received significant attention by the vision community with the aim to establish a valid reference for a systematic evaluation. 
+%\item Descrivere il perché si necessità un GT su larga scala \\
+Therefore,  large scale annotated datasets, covering as much scenarios and objects as possible, are needed in order to train and  evaluate the existing approaches. The main limitation to achieve this goal is the daunting amount of time needed to generate high quality ground truth data which requires a lot of human concentration, in fact it has been estimated that labeling an image may take  take from to two to thirty minutes, depending on the operation, and it is, obviously, even worse in the case of videos. \\
+There exist, in the literature, a few attempts \cite{}, \cite{} (which will be reviewed in the next section) performed by some vision groups that have collected consistent annotated datasets which however are too task-oriented and can not be generalised for any object category and scenario.  
+To reach the objective of creating more diverse and larger annotated datasets, collaborative methods, exploiting large population of expert and motivated users, have been proposed \cite{}, \cite{}. 
+One of the most relevant examples is LabelMe \cite{}, a web-based platform to collect user annotations with which a large set of annotations, for training and testing of detection, segmentation and classification algorithms in still images, has been collected.   
+However, LabelMe lacks in intelligent mechanisms to combine and integrate user annotations and, moreover,  
+
+not as successful as the image based version
+
+The construction of such datasets has required to crowd source the annotation efforts to non-experts. However these approaches can not be trusted to the unknow capability of online annotators. Ranking of users annotations: "Gold Standard", "Grading" and "Consensus", whereas LabelMe has used a simple but effective method to assess annotation quality, i.e. the number of control points of a polygon.
+
+
+
+
+
+In recent years, there has been interest in 
+
+spanning hundreds of object categories and different scenarios, but these represent isolated approaches performed by research group 
+
+. 
+
+\item Limiti generici delle soluzioni esistenti
+\item Obiettivi della nostra ricerca
+
+Variety of fish species makes it a multi class classification problem.
+Aims:
+1) Approach to guide and speed up the annotation phase, 2) to make the database general enough to be used for different evaluation tasks and 3) to build up benchmarks for a variety of visual patterns, 4) build up a large scale database of labeled data to be used for a variety of visual patterns
+
+The proposed system supports multiple levels of labeling: 1) Scene Level, Object Level and Pixel Level.
+
+Compatibility with existing labeling tools: ViPer and ODViS but not user friendly 
+
+ATTENZIONE: non confondere i metodi per collect GT con i dataset
+Two fold: a collaborative effort to collect ground truth data on videos and a new controlled dataset focused on an emerging topic in video-surveillance applications: environmental monitoring and animal behavior studied
+
+\item Descrizione del dataset F4K e quale impatto ha sulla ricerca sia per la collection di ground truth che per gli algoritmi di detection e classificazione
+Challenging datasets are catalyst for progress in computer vision.
+
+We have available a large dataset of videos taken in underwater environment and we wish to collect a large dataset of ground truth labels for detection, tracking and recognition purposes
+
+
+Underwater environment:
+\begin{itemize}
+\item Not many detection, tracking and recognition algorithms have been developed to deal with unconstrained environments;
+\item Underwater scenario is a challenging one for developing/testing detection, tracking and recognition algorithms. Add Features  
+\end{itemize}
+
+
+\item Descrizione del paper
+\end{itemize}
+
+\section{Related Works}
+
+\item Many available datasets contain only a small number of objects and classes and the ones that have large number of objects/classes lack in quality since they are hand-labeled from users on the web and the mechanisms for quality assessment are not effective
+\item Main features of the existing approaches (PETS, LabelMe, CalTech, Berkeley Segmentation Dataset, PASCAL collection, CAVIAR, etc...)
+\begin{enumerate}
+\item Instance recognition
+\item Low quality labeling
+\item Copyrighted-images/videos
+\item Static scenario: it is useful to vary the scene type, distances, degree of clutter, etc.. 
+\item Portability of the annotation tool
+\item interoperability (XML Schema of the GT) 
+\end{enumerate}  
+
+Categorization of the existing approaches: 
+\begin{itemize}
+\item Primi approcci non collaborativi \\
+CAVIAR: resolution half of PAL  (384x288) : ground truth consists of hand-labeled bounding boxes surrounding objects together with a label indicating object activity (e.g. walking, running, etc..)
+Limitations of existing approaches:
+OpenMind Initiative: description and limitations
+
+ 
+ i-LIDS: event related ground truth.
+ 
+ 
+AVSS:  This page provides publicly available benchmark datasets for testing and evaluating detection and tracking algorithms. The datasets are free for research and educational purposes only and can be used in scientific publications at the condition of respecting the requested citation acknowledgment.
+Caltech 101 and 256: They are not designed to learn objects in cluttered scenes, i.e. they consist of small cropped images with limited viewpoints. They work fine for training patch-based object detections while they are not suitable for detections which use contextual information.
+The Berkely Segmentation Database: limited in regards of scale and content
+
+\item Web based approaches
+LabelMe: rough annotation of object boundary, it does not support or better it does not integrate in an intelligent way the annotations of different users
+
+\item Approcci per il crowdsourcing
+
+\item Metodi per la generazione automatica del GT \\
+Semi-automatic approaches still require the user to manually label the obtained results.
+
+\end{itemize}
+
+
+
+

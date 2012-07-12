@@ -1,0 +1,678 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.2)  6 JUL 2012 19:06
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(./elsarticle.cls
+Document Class: elsarticle 2010/06/11, 1.21: Elsevier Ltd
+\@bls=\dimen102
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+ (./main.spl)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/11/07 8.31a (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `main.spl'.
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/07/13 v5.5 Page Geometry
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks17
+)
+\appnamewidth=\dimen117
+)
+(./ecrc.sty
+Package: ecrc 2011/05/07 v1.2a ecrc
+\dummylogowidth=\dimen118
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count98
+\rotFPtop=\skip47
+\rotFPbot=\skip48
+\rot@float@box=\box30
+\rot@mess@toks=\toks19
+) (./main.aux
+
+LaTeX Warning: Label `sec:clustermethod' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+ (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen119
+\scratchbox=\box31
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen120
+\MPnumerator=\count103
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(64.75394pt, 468.0pt, 64.75394pt)
+* v-part:(T,H,B)=(111.52342pt, 622.0pt, 111.52342pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=468.0pt
+* \textheight=622.0pt
+* \oddsidemargin=-7.51605pt
+* \evensidemargin=-7.51605pt
+* \topmargin=17.25343pt
+* \headheight=10.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=24.0pt
+* \skip\footins=24.0pt plus 2.0pt minus 12.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 171.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 171.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 171.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+(./introduction-concetto.tex
+
+Package natbib Warning: Citation `speech' on page 1 undefined on input line 3.
+
+
+Package natbib Warning: Citation `bio' on page 1 undefined on input line 3.
+
+<elsevier-logo-3p.pdf, id=1, 54.08205pt x 59.7432pt>
+File: elsevier-logo-3p.pdf Graphic file (type pdf)
+
+<use elsevier-logo-3p.pdf> <SDlogo-3p.pdf, id=2, 169.8345pt x 33.9669pt>
+File: SDlogo-3p.pdf Graphic file (type pdf)
+
+<use SDlogo-3p.pdf>
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 8.
+
+File: elsevier-logo-3p.pdf Graphic file (type pdf)
+<use elsevier-logo-3p.pdf>
+File: SDlogo-3p.pdf Graphic file (type pdf)
+ <use SDlogo-3p.pdf>
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Overfull \vbox (49.74303pt too high) has occurred while \output is active []
+
+
+[1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
+
+./introduction-concetto.tex:20: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \item L
+            imiti generici delle soluzioni esistenti
+? 
+
+./introduction-concetto.tex:21: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \item O
+            biettivi della nostra ricerca
+? 
+
+./introduction-concetto.tex:34: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \item D
+            escrizione del dataset F4K e quale impatto ha sulla ricerca sia ...
+
+? 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+
+
+./introduction-concetto.tex:47: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \item D
+            escrizione del paper
+? 
+
+./introduction-concetto.tex:48: LaTeX Error: \begin{document} ended by \end{ite
+mize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \end{itemize}
+                  
+? 
+./introduction-concetto.tex:48: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.48 \end{itemize}
+                  
+? 
+
+./introduction-concetto.tex:52: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \item M
+            any available datasets contain only a small number of objects an...
+
+? 
+
+./introduction-concetto.tex:53: LaTeX Error: Lonely \item--perhaps a missing li
+st environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \item M
+            ain features of the existing approaches (PETS, LabelMe, CalTech,...
+
+? 
+[2]) (./detectGT.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[3]) (./recogGT.tex [4]
+./recogGT.tex:21: Undefined control sequence.
+l.21 \todo
+          {We close this section with a discussion of the quality of the lab...
+
+? 
+./recogGT.tex:31: Undefined control sequence.
+l.31 \todo
+          {I changed the subsection titles here, the original one was ``Firs...
+
+? 
+./recogGT.tex:40: Undefined control sequence.
+l.40 be very time consuming.\todo
+                                 {Do you mean manually remove the wrong segm...
+
+? 
+./recogGT.tex:43: Undefined control sequence.
+l.43 \todo
+          {It is confusing here whether we are talking about similarity meas...
+
+? 
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 5 undef
+ined on input line 52.
+
+
+Package natbib Warning: Citation `zivkovic_recursive_2004' on page 5 undefined 
+on input line 61.
+
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 5 undef
+ined on input line 70.
+
+[5]
+
+Package natbib Warning: Citation `frey_clustering_2007' on page 6 undefined on 
+input line 86.
+
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 6 undef
+ined on input line 87.
+
+
+Package natbib Warning: Citation `frey_clustering_2007' on page 6 undefined on 
+input line 88.
+
+./recogGT.tex:99: Undefined control sequence.
+l.99 the clusters together.\todo
+                                {What does ``link the clusters together'' me...
+
+? 
+
+Package natbib Warning: Citation `frey_clustering_2007' on page 6 undefined on 
+input line 100.
+
+<schematicfigureclusteringmethod.pdf, id=38, 796.9775pt x 597.23125pt>
+File: schematicfigureclusteringmethod.pdf Graphic file (type pdf)
+
+<use schematicfigureclusteringmethod.pdf> [6]
+./recogGT.tex:137: Undefined control sequence.
+l.137 \todo
+           {Terms ``cluster'' and ``label'' alrady occured in the begining o...
+
+? 
+
+./recogGT.tex:153: LaTeX Error: File `selectdiffish' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \includegraphics[width=3in]{selectdiffish}
+                                                
+? 
+[7 <./schematicfigureclusteringmethod.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
+ []
+
+
+./recogGT.tex:174: LaTeX Error: File `selectfish' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \includegraphics[width=3in]{selectfish}
+                                             
+? 
+[8]
+./recogGT.tex:206: Undefined control sequence.
+l.206 ...ages that are not part of a cluster \todo
+                                                  {to a label?}.
+? 
+
+./recogGT.tex:242: LaTeX Error: File `expertlabel' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 ...graphics[width=.5\textwidth]{expertlabel}
+                                                  
+? 
+[9]
+
+./recogGT.tex:275: LaTeX Error: File `exp_disagree' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.275 ...th, height = 0.3\textwidth]{exp_disagree}
+                                                  
+? 
+
+./recogGT.tex:287: LaTeX Error: File `nonexp_error_nonstrict' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.287 ... = 0.3\textwidth]{nonexp_error_nonstrict}
+                                                  
+? 
+./recogGT.tex:314: Undefined control sequence.
+l.314 \todo
+           {@Bas: why in my judgements 190 imgages are labeled by the biolog...
+
+? 
+./recogGT.tex:320: Undefined control sequence.
+l.320 \todo
+           {In case you are confused when checking the database: in the data...
+
+? 
+[10]
+./recogGT.tex:325: Undefined control sequence.
+l.325 \todo
+           {I think we need to at least briefly discuss how many images we a...
+
+? 
+<distributionofdataset2.pdf, id=68, 417.14845pt x 308.02075pt>
+File: distributionofdataset2.pdf Graphic file (type pdf)
+
+<use distributionofdataset2.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 354--360
+
+ []
+
+[11 <./distributionofdataset2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--389
+
+ []
+
+
+./recogGT.tex:390: LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.390 \begin{comment}
+                     
+? 
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 12 unde
+fined on input line 403.
+
+
+Package natbib Warning: Citation `frey_clustering_2007' on page 12 undefined on
+ input line 404.
+
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 12 unde
+fined on input line 405.
+
+
+Package natbib Warning: Citation `zivkovic_recursive_2004' on page 12 undefined
+ on input line 407.
+
+
+Package natbib Warning: Citation `zivkovic_recursive_2004' on page 12 undefined
+ on input line 415.
+
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 12 unde
+fined on input line 420.
+
+[12]
+
+Package natbib Warning: Citation `goldberger_unsupervised_2006' on page 13 unde
+fined on input line 433.
+
+
+Package natbib Warning: Citation `frey_clustering_2007' on page 13 undefined on
+ input line 434.
+
+
+Package natbib Warning: Citation `frey_clustering_2007' on page 13 undefined on
+ input line 442.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 462--466
+
+ []
+
+<images/interfacesresizedv2.pdf, id=102, 584.97446pt x 289.2554pt>
+File: images/interfacesresizedv2.pdf Graphic file (type pdf)
+
+<use images/interfacesresizedv2.pdf> [14] [15 <./images/interfacesresizedv2.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 510--525
+
+ []
+
+[16]
+
+./recogGT.tex:542: LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.542 \end{comment}
+                   
+? 
+)
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[17] (./main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2908 strings out of 493747
+ 38721 string characters out of 3143547
+ 105746 words of memory out of 3000000
+ 6120 multiletter control sequences out of 15000+200000
+ 9240 words of font info for 34 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 38i,12n,31p,779b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
+b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on main.pdf (17 pages, 429117 bytes).
+PDF statistics:
+ 176 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+

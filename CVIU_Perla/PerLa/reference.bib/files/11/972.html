@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.sciencemag.org/content/315/5814/972">
+<meta name="wpd_url" content="http://www.sciencemag.org/content/315/5814/972">
+<meta name="wpd_date" content="2011-08-29T08:31Z">
+
+      
+      <title>Clustering by Passing Messages Between Data Points </title>
+      <meta name="HW.ad-path" content="/cgi/content/abstract/315/5814/972">
+      <meta name="DC.Format" content="text/html">
+      <meta name="DC.Language" content="en">
+      <meta content="Clustering by Passing Messages Between Data Points" name="DC.Title">
+      <meta content="10.1126/science.1136800" name="DC.Identifier">
+      <meta content="2007-02-16" name="DC.Date">
+      <meta content="American Association for the Advancement of Science" name="DC.Publisher">
+      <meta content="Brendan J. Frey" name="DC.Contributor">
+      <meta content="Delbert Dueck" name="DC.Contributor">
+      <meta content="Science" name="citation_journal_title">
+      <meta content="Science" name="citation_journal_abbrev">
+      <meta content="0036-8075" name="citation_issn">
+      <meta content="1095-9203" name="citation_issn">
+      <meta content="Frey, Brendan J.; Dueck, Delbert" name="citation_authors">
+      <meta content="Clustering by Passing Messages Between Data Points" name="citation_title">
+      <meta content="02/16/2007" name="citation_date">
+      <meta content="315" name="citation_volume">
+      <meta content="5814" name="citation_issue">
+      <meta content="972" name="citation_firstpage">
+      <meta content="976" name="citation_lastpage">
+      <meta content="315/5814/972" name="citation_id">
+      <meta content="sci;315/5814/972" name="citation_mjid">
+      <meta content="10.1126/science.1136800" name="citation_doi">
+      <meta content="http://www.sciencemag.org/content/315/5814/972.abstract" name="citation_abstract_html_url">
+      <meta content="http://www.sciencemag.org/content/315/5814/972.full" name="citation_fulltext_html_url">
+      <meta content="http://www.sciencemag.org/content/315/5814/972.full.pdf" name="citation_pdf_url">
+      <meta content="http://www.sciencemag.org/content/315/5814/972" name="citation_public_url">
+      <meta content="17218491" name="citation_pmid">
+      <meta name="robots" content="noarchive">
+      <meta name="citation_article_type" content="report">
+      <meta name="citation_taxonomy" content="comp/math">
+      <link href="http://www.sciencemag.org/content/315/5814/969.short" rel="prev">
+      <link href="http://www.sciencemag.org/content/315/5814/977.short" rel="next">
+      
+      
+      
+      
+      
+      
+      
+      <script type="text/javascript" id="session-d341411379e1">var callbackToken='569A0825165D557';</script><script type="text/javascript" id="session-d341411379e3">
+
+			var OAS_country_code = 'GB';
+			var OAS_taxonomy = 'subject=COMP/MATH';
+			
+			
+			
+				
+        var OAS_sitepage = window.location.hostname + window.location.pathname;
+    
+		
+			var OAS_usertype = 'INST';
+		</script><script type="text/javascript" src="jquery.min.js"></script><script type="text/javascript" src="jquery-ui.min.js"></script><script type="text/javascript" src="publisher-library.js"></script><script type="text/javascript" src="hw-shared.js"></script><script type="text/javascript" src="publisher-shared.js"></script><script type="text/javascript" src="global_js.js"></script><script type="text/javascript" src="oas_analytics.js"></script><script type="text/javascript" src="hw-content.js"></script><script type="text/javascript" src="publisher-rightslink.js"></script><script type="text/javascript" src="hw-local-rightslink.js"></script><script type="text/javascript" src="oas_ads.js"></script><script type="text/javascript" src="google-analytics-include.js"></script>
+<link rel="stylesheet" type="text/css" href="972.css" media="all">
+</head>
+<body>
+      <div class="hw-gen-page sci pagetype-content hw-pub-id-article hw-pub-section-report" id="pageid-content">
+         <div id="hd">		
+            			
+            <div id="hd-main">
+               				
+               <div id="hd-logo"><a href="http://www.sciencemag.org/" title="*Science*/AAAS" tabindex="2"><em>Science</em>/AAAS</a></div>
+               				
+               				
+               <ul id="nav-util">
+                  <li><a href="http://aaas.org/" tabindex="3">AAAS.ORG</a></li>
+                  <li><a href="http://www.sciencemag.org/feedback" tabindex="4">Feedback</a></li>
+                  <li><a href="http://www.sciencemag.org/site/help/" tabindex="5">Help</a></li>
+                  <li class="last"><a href="http://www.sciencemag.org/help/librarians/" tabindex="6">Librarians</a></li>
+               </ul>
+               				
+               <div id="hd-search">
+                  		
+                  <form id="global_search_form" name="global_search_form" action="http://www.sciencemag.org/switch">
+                     <fieldset><select id="site_area" name="site_area" size="1" tabindex="7">
+                           <option value="sci" selected="selected">Science Magazine</option>
+                           <option value="sciencenow">Daily News</option>
+                           <option value="sigtrans">Science Signaling</option>
+                           <option value="scitransmed">Science Translational Medicine</option>
+                           <option value="sageke">SAGE KE</option>
+                           <option value="scirecruit">Science Careers</option>
+                           <option value="searchall">All HighWire Journals</option></select><input id="search-terms" name="fulltext" value="Enter Search Term" tabindex="8" type="text"><input src="spacer.gif" class="search-submit" value="submit" tabindex="9" type="image"><a href="http://www.sciencemag.org/search" tabindex="10">Advanced</a></fieldset>
+                  </form>
+                  	
+               </div>
+               				
+               <div id="authstring">
+                  
+                  <ul>
+                     <li class="subscr-ref">EDINBURGH UNIVERSITY LIB</li>
+                     <li class="no-left-border">
+                        <a href="http://www.sciencemag.org/cgi/alerts/main">
+
+                           Alerts
+                           </a>
+                        
+                     </li>
+                     <li>
+                        <a href="http://www.sciencemag.org/site/my_account/access_rights.xhtml">
+
+                           Access Rights
+                           </a>
+                        
+                     </li>
+                     <li>
+                        <a href="http://www.sciencemag.org/site/my_account/">
+
+                           My Account
+                           </a>
+                        
+                     </li>
+                     <li>
+                        <a href="http://www.sciencemag.org/login?uri=http%3A%2F%2Fwww.sciencemag.org%2Fcontent%2F315%2F5814%2F972">
+                           
+                           
+                           <strong xmlns="">Sign In</strong>
+                           
+                           </a>
+                        
+                     </li>
+                  </ul>           
+                  
+               </div>
+               				
+               <ul id="nav-main" class="nav-main">
+                  <li class="item" id="nav_news"><a href="http://news.sciencemag.org/" id="nav-main-news" tabindex="14">News</a></li>
+                  <li id="nav_magazine" class="item Active"><a href="http://www.sciencemag.org/journals" id="nav-main-journals" tabindex="15">Science Journals</a></li>
+                  <li class="item" id="nav_careers"><a id="nav-main-careers" href="http://sciencecareers.sciencemag.org/" tabindex="16">Careers</a></li>
+                  <li class="item" id="nav_communities"><a id="nav-main-communities" href="http://blogs.sciencemag.org/" tabindex="17">Communities</a></li>
+                  <li class="item" id="nav_multimedia"><a href="http://www.sciencemag.org/multimedia/" id="nav-main-multimedia" tabindex="18">Multimedia</a></li>
+                  <li class="item" id="nav_collections"><a href="http://www.sciencemag.org/cgi/collection" id="nav-main-topics" tabindex="19">Topics</a></li>
+               </ul>
+               				<a href="http://www.sciencemag.org/subscriptions/indiv_sub.xhtml" id="hd-subscribe" tabindex="20">Subscribe</a>
+               				<a name="SectionNavigation" id="SectionNavigation"></a>
+               
+               <div id="hd-sub">
+                  
+                  <ul id="nav-sub" class="tab-list">
+                     <li id="subnav_science_home"><a href="http://www.sciencemag.org/magazine"><em>Science</em> Home</a></li>
+                     <li id="subnav_current_issue"><a href="http://www.sciencemag.org/content/current">Current Issue</a></li>
+                     <li id="subnav_prev_issues" class="Active"><a href="http://www.sciencemag.org/content">Previous Issues</a></li>
+                     <li id="subnav_science_express"><a href="http://www.sciencemag.org/content/early/recent"><em>Science</em> Express</a></li>
+                     <li id="subnav_science_products"><a href="http://www.sciencemag.org/products/"><em>Science</em> Products</a></li>
+                     <li id="subnav_my_science"><a href="http://www.sciencemag.org/my_science/">My <em>Science</em></a></li>
+                     <li id="subnav_about_journal"><a href="http://www.sciencemag.org/site/about/index.xhtml">About the Journal</a></li>
+                  </ul>
+                  
+               </div>
+               
+               			
+            </div>		
+            			
+            <div id="site-breadcrumbs-wrapper">
+               		
+               <ul id="site-breadcrumbs">
+                  <li class="firstcrumb"><a href="http://www.sciencemag.org/">Home</a></li>
+                  <li><span class="bc-sep"> &gt; </span><a href="http://www.sciencemag.org/magazine"><em>Science</em> Magazine</a></li>
+                  <li><span class="bc-sep"> &gt; </span><a href="http://www.sciencemag.org/content/315/5814.toc">16 February 2007</a></li>
+                  <li class="lastcrumb"><span class="bc-sep"> &gt; </span><span class="quick-ref has-earlier-version"><span class="cit-auth-list truncated"><span class="first-item"><span>Frey</span><span class="cit-sep cit-sep-truncation-suffix-article-author"> et al.</span></span></span><span class="cit-sep cit-sep-after-article-author">, </span> <cite><span class="cit-vol">315 </span><span class="cit-issue"><span class="cit-sep cit-sep-before-article-issue">(</span>5814<span class="cit-sep cit-sep-after-article-issue">): </span> </span><span class="cit-pages"><span class="cit-first-page">972</span><span class="cit-sep">-</span><span class="cit-last-page">976</span></span></cite>  </span></li>
+               </ul>
+               	
+            </div>
+            		
+         </div>
+         <div id="leaderboard" class="leaderboard-ads">
+            			<script type="text/javascript">
+
+				OAS_AD('Top');
+			</script>
+            			
+            			
+            		</div>
+         <div id="BodyWrapper">
+            <div id="content-block">
+               <div class="article-nav">
+                  <a href="http://www.sciencemag.org/content/315/5814/969.short" title="Go to previous article" class="page-nav_prev">Prev</a>
+                  <span class="article-nav-sep"> | </span><span class="toc-link"><a href="http://www.sciencemag.org/content/315/5814.toc" title="Table of Contents">Table of Contents</a></span><span class="article-nav-sep"> | </span><a href="http://www.sciencemag.org/content/315/5814/977.short" title="Go to next article" class="page-nav_next">Next</a>
+                  
+               </div>
+               <div id="slugline">
+                  <cite>
+                     
+                     <span class="slug-metadata-note ahead-of-print">
+
+                        Published Online
+                        <span class="slug-ahead-of-print-date">January 11 2007</span><br>
+                        
+                        </span>
+                     
+                     
+                     
+                     <abbr title="Science" class="slug-jnl-abbrev">
+
+                        Science</abbr><span class="slug-pub-date">
+
+                        16 February 2007:
+                        </span><br>
+                     <span class="slug-vol">
+
+                        Vol. 315 
+                        </span><span class="slug-issue">
+
+                        no. 5814 
+                        </span><span class="slug-pages">
+
+                        pp.
+                        
+                        972-976
+                        </span>
+                     <br>
+                     DOI:
+                     <span title="10.1126/science.1136800" class="slug-doi">10.1126/science.1136800
+                        </span>
+                     
+                     </cite>
+                  
+               </div>
+               <ul class="subject-headings last-child">
+                  <li>Report</li>
+               </ul>
+               <div class="article abstract-view"><span class="highwire-journal-article-marker-start"></span><h1 id="article-title-1">Clustering by Passing Messages Between Data Points</h1>
+                  <div class="contributors">
+                     <ol class="contributor-list" id="contrib-group-1">
+                        <li class="contributor" id="contrib-1"><span class="name"><a class="name-search" href="http://www.sciencemag.org/search?author1=Brendan+J.+Frey&sortspec=date&submit=Submit">Brendan J. Frey</a></span><a id="xref-corresp-1-1" class="xref-corresp" href="#corresp-1">*</a> and 
+                        </li>
+                        <li class="last" id="contrib-2"><span class="name"><a class="name-search" href="http://www.sciencemag.org/search?author1=Delbert+Dueck&sortspec=date&submit=Submit">Delbert Dueck</a></span></li>
+                     </ol>
+                     <ol class="affiliation-list">
+                        <li class="aff"><a id="aff-1" name="aff-1"></a><address>Department of Electrical and Computer Engineering, University of Toronto, 10 King's College Road, Toronto, Ontario M5S 3G4,
+                              Canada.
+                           </address>
+                        </li>
+                     </ol>
+                     <ol class="corresp-list">
+                        <li class="corresp" id="corresp-1"><span class="corresp-label">*</span> To whom correspondence should be addressed. E-mail: <span class="em-link"><span class="em-addr">frey{at}psi.toronto.edu</span></span></li>
+                     </ol>
+                  </div>
+                  <div class="section abstract" id="abstract-1">
+                     <h2>Abstract</h2>
+                     
+                     <p id="p-1">Clustering data by identifying a subset of representative examples is important for processing sensory signals and detecting
+                        patterns in data. Such &ldquo;exemplars&rdquo; can be found by randomly choosing an initial subset of data points and then iteratively
+                        refining it, but this works well only if that initial choice is close to a good solution. We devised a method called &ldquo;affinity
+                        propagation,&rdquo; which takes as input measures of similarity between pairs of data points. Real-valued messages are exchanged
+                        between data points until a high-quality set of exemplars and corresponding clusters gradually emerges. We used affinity propagation
+                        to cluster images of faces, detect genes in microarray data, identify representative sentences in this manuscript, and identify
+                        cities that are efficiently accessed by airline travel. Affinity propagation found clusters with much lower error than other
+                        methods, and it did so in less than one-hundredth the amount of time.
+                     </p>
+                     
+                  </div>
+                  <ul class="history-list">
+                     <li xmlns:hwp="http://schema.highwire.org/Journal" class="received" hwp:start="2006-10-26"><span class="received-label">Received for publication </span>26 October 2006.
+                     </li>
+                     <li xmlns:hwp="http://schema.highwire.org/Journal" class="accepted" hwp:start="2006-12-26"><span class="accepted-label">Accepted for publication </span>26 December 2006.
+                     </li>
+                  </ul><span class="highwire-journal-article-marker-end"></span></div><span id="related-urls"></span><div class="read-full-text">
+                  <a href="http://www.sciencemag.org/content/315/5814/972.full">Read the Full Text</a>
+                  
+               </div>
+               <div id="rel-suggested-articles" class="relmgr-relation scienceonline_related">
+                  <h2>The editors suggest the following Related Resources on <em>Science</em> sites
+                  </h2>
+                  <h4 class="rel-which-jnl">In 
+                     <em>Science</em> Magazine
+                  </h4>
+                  <ul>
+                     <li class="cit">
+                        <div class="cit-metadata"><span class="cit-first-element cit-title">Response to Comment on "Clustering by Passing Messages Between Data Points" </span><ul class="cit-auth-list">
+                              <li class="first-item"><span class="cit-auth cit-auth-type-author">Brendan J. Frey</span><span class="cit-sep cit-sep-two-item-separator"> and</span></li>
+                              <li class="last-item"><span class="cit-auth cit-auth-type-author">Delbert Dueck</span></li>
+                           </ul> <cite><abbr title="Science" class="site-title">Science</abbr> <span class="cit-print-date">8 February 2008<span class="cit-sep cit-sep-after-article-print-date">: </span> </span><span class="cit-pages"><span class="cit-first-page">726</span><span class="cit-sep cit-sep-after-article-pages">.</span></span></cite>  
+                        </div>
+                        <div class="cit-extra">
+                           <ul class="cit-views">
+                              <li class="first-item"><a href="http://www.sciencemag.org/content/319/5864/726.4.abstract" rel="abstract">Abstract</a></li>
+                              <li><a href="http://www.sciencemag.org/content/319/5864/726.4.full" rel="full-text">Full Text</a></li>
+                              <li class="last-item"><a href="http://www.sciencemag.org/content/319/5864/726.4.full.pdf" rel="full-text.pdf">Full Text (PDF)</a></li>
+                           </ul>  
+                        </div> 
+                     </li>
+                     <li class="cit">
+                        <div class="cit-metadata"><span class="cit-first-element cit-title">Comment on "Clustering by Passing Messages Between Data Points" </span><ul class="cit-auth-list">
+                              <li class="first-item"><span class="cit-auth cit-auth-type-author">Michael J. Brusco</span><span class="cit-sep cit-sep-two-item-separator"> and</span></li>
+                              <li class="last-item"><span class="cit-auth cit-auth-type-author">Hans-Friedrich K&ouml;hn</span></li>
+                           </ul> <cite><abbr title="Science" class="site-title">Science</abbr> <span class="cit-print-date">8 February 2008<span class="cit-sep cit-sep-after-article-print-date">: </span> </span><span class="cit-pages"><span class="cit-first-page">726</span><span class="cit-sep cit-sep-after-article-pages">.</span></span></cite>  
+                        </div>
+                        <div class="cit-extra">
+                           <ul class="cit-views">
+                              <li class="first-item"><a href="http://www.sciencemag.org/content/319/5864/726.3.abstract" rel="abstract">Abstract</a></li>
+                              <li><a href="http://www.sciencemag.org/content/319/5864/726.3.full" rel="full-text">Full Text</a></li>
+                              <li class="last-item"><a href="http://www.sciencemag.org/content/319/5864/726.3.full.pdf" rel="full-text.pdf">Full Text (PDF)</a></li>
+                           </ul>  
+                        </div> 
+                     </li>
+                     <li class="cit">
+                        <div class="cit-metadata"><span class="cit-first-element cit-overline">COMPUTER SCIENCE </span><span class="cit-title">Where Are the Exemplars? </span><ul class="cit-auth-list">
+                              <li class="first-item"><span class="cit-auth cit-auth-type-author">Marc M&eacute;zard</span></li>
+                           </ul> <cite><abbr title="Science" class="site-title">Science</abbr> <span class="cit-print-date">16 February 2007<span class="cit-sep cit-sep-after-article-print-date">: </span> </span><span class="cit-pages"><span class="cit-first-page">949</span><span class="cit-sep">-</span><span class="cit-last-page">951</span><span class="cit-sep cit-sep-after-article-pages">.</span></span></cite>  
+                        </div>
+                        <div class="cit-extra">
+                           <ul class="cit-views">
+                              <li class="first-item"><a href="http://www.sciencemag.org/content/315/5814/949.summary" rel="summary">Summary</a></li>
+                              <li><a href="http://www.sciencemag.org/content/315/5814/949.full" rel="full-text">Full Text</a></li>
+                              <li class="last-item"><a href="http://www.sciencemag.org/content/315/5814/949.full.pdf" rel="full-text.pdf">Full Text (PDF)</a></li>
+                           </ul>  
+                        </div> 
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div id="col-2">
+               
+               
+               <div class="content-box" id="article-cb-main">
+                  <div class="cb-contents">
+                     <h3 class="cb-contents-header"><span>Article Views</span></h3>
+                     <div class="cb-section">
+                        <ol>
+                           <li><span class="variant-indicator"><span>Abstract</span></span></li>
+                           <li class="notice"><a href="http://www.sciencemag.org/content/315/5814/972.full" rel="view-full-text">Full Text</a></li>
+                           <li class="notice"><a href="http://www.sciencemag.org/content/315/5814/972.full.pdf" rel="view-full-text.pdf">Full Text (PDF)</a></li>
+                           <li><a href="http://www.sciencemag.org/content/315/5814/972.figures-only" rel="view-figures-only">Figures Only</a></li>
+                           <li><a href="http://www.sciencemag.org/content/315/5814/972/suppl/DC1" rel="supplemental-data" class="dslink-supporting-online-material">Supporting Online Material</a></li>
+                           <li class="cb-versions">
+                              <div><span id="pap-all-versions-label">Version History</span><ol class="version-list">
+                                    <li class="current-li"><span>315/5814/972</span> <span class="current-version">(most recent)</span></li>
+                                    <li><a href="http://www.sciencemag.org/content/early/2007/01/11/science.1136800">1136800v1</a></li>
+                                 </ol>
+                              </div>
+                           </li>
+                        </ol>
+                     </div>
+                     <div class="cb-section" id="cb-art-svcs">
+                        <h4 class="cb-section-header"><span>Article Tools</span></h4>
+                        <ol>
+                           <li><a href="http://www.sciencemag.org/cgi/folders?action=addtofolder&wherefrom=JOURNALS&wrapped_id=sci;315/5814/972">Save to My Folders
+                                 </a></li>
+                           <li><a href="http://www.sciencemag.org/citmgr?gca=sci;315/5814/972">Download Citation</a></li>
+                           <li><a href="http://www.sciencemag.org/cgi/alerts/ctalert?alertType=citedby&addAlert=cited_by&cited_by_criteria_resid=sci;315/5814/972&saveAlert=no&return-type=article&return_url=http://www.sciencemag.org/content/315/5814/972">Alert Me When Article is Cited</a></li>
+                           <li>
+                              <div class="social-bookmarking">
+                                 
+                                 <ul xmlns="" class="social-bookmark-links">
+                                    <li>
+                                       <a href="http://www.sciencemag.org/external-ref?tag_url=http://www.sciencemag.org/cgi/content/long/315/5814/972&title=Clustering%20by%20Passing%20Messages%20Between%20Data%20Points+--+Frey%20and%20Dueck%20%2C%20%20Science%20315%20%285814%29%20972-976.+--+&doi=10.1126/science.1136800&link_type=CITEULIKE">
+                                          <img src="citeulike.gif" alt="Add to Post to CiteULike" title="Post to CiteULike">
+                                          <span class="soc-bm-link-text">Post to CiteULike</span>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="http://www.sciencemag.org/external-ref?tag_url=http://www.sciencemag.org/cgi/content/long/315/5814/972&title=Clustering%20by%20Passing%20Messages%20Between%20Data%20Points+--+Frey%20and%20Dueck%20%2C%20%20Science%20315%20%285814%29%20972-976.+--+&doi=10.1126/science.1136800&link_type=GOOGLEPLUS">
+                                          <img src="googleplus.jpg" alt="Add to Google+" title="Google+">
+                                          <span class="soc-bm-link-text">Google+</span>
+                                       </a>
+                                    </li>
+                                 </ul>
+                                 
+                                 <p class="social-bookmarking-help"><a href="http://www.sciencemag.org/help/social_bookmarks.dtl">What's this?</a></p>
+                                 
+                              </div>
+                           </li>
+                           <li><a href="http://www.sciencemag.org/email?gca=sci;315/5814/972&current-view-path=/content/315/5814/972">
+
+                                 E-mail This Page</a></li>
+                           <li><a href="http://www.sciencemag.org/letters/submit/sci;315/5814/972" rel="external-nw">Submit an E-Letter</a></li>
+                           <li><a class="request-permissions" href="https://s100.copyright.com/AppDispatchServlet?publisherName=AAAS&publication=sci&title=Clustering%20by%20Passing%20Messages%20Between%20Data%20Points&publicationDate=02/16/2007&author=Brendan%20J.%20Frey,%20Delbert%20Dueck&contentID=10.1126/science.1136800&volumeNum=315&issueNum=5814&startPage=972&endPage=976&section=R&copyright=American%20Association%20for%20the%20Advancement%20of%20Science&orderBeanReset=true" id="cb-rightslink-link" rel="external-nw">Commercial Reprints and Permissions</a></li>
+                           <li><a href="http://www.sciencemag.org/external-ref?access_num=17218491&link_type=PUBMED" rel="external-nw">View PubMed Citation</a></li>
+                        </ol>
+                     </div>
+                     <div class="cb-section" id="cb-art-cit">
+                        <h4 class="cb-section-header"><span>Related Content</span></h4>
+                        <ol>
+                           <div class="cb-section">
+                              <ol>
+                                 <li>
+                                    <div class="cb-section cb-subhead" id="cb-rel-this-jnl">
+                                       <h4 class="cb-section-header">In <em>Science</em> Magazine
+                                       </h4>
+                                       <ul>
+                                          <li class="content_box-scienceonline_related-link"><a href="http://www.sciencemag.org/content/319/5864/726.4"><span class="jnl-abbrev">
+                                                   <em>Science</em>
+                                                   </span> <span class="article-section">Technical Comments</span> by <span class="authors-quickref"><span class="authors-quickref">Frey and Dueck</span></span></a></li>
+                                          <li class="content_box-scienceonline_related-link"><a href="http://www.sciencemag.org/content/319/5864/726.3"><span class="jnl-abbrev">
+                                                   <em>Science</em>
+                                                   </span> <span class="article-section">Technical Comments</span> by <span class="authors-quickref"><span class="authors-quickref">Brusco and K&ouml;hn</span></span></a></li>
+                                          <li class="content_box-scienceonline_related-link"><a href="http://www.sciencemag.org/content/315/5814/949"><span class="jnl-abbrev">
+                                                   <em>Science</em>
+                                                   </span> <span class="article-section">Perspective</span> by <span class="authors-quickref"><span class="authors-quickref">M&eacute;zard</span></span></a></li>
+                                       </ul>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="cb-section cb-subhead" id="cb-art-cit-link">
+                                       <ul>
+                                          <li><a href="#rel-suggested-articles">More Information on Related Content</a></li>
+                                       </ul>
+                                    </div>
+                                 </li>
+                                 <li><a href="http://www.sciencemag.org/content/315/5814/972?related-urls=yes&legid=sci;315/5814/972#related-urls" id="cb-related-urls">Load related web site information</a></li>
+                              </ol>
+                           </div>
+                           <div class="cb-section cb-subhead" id="cb-art-cit">
+                              <h4 class="cb-section-header"><span>Similar Articles In:</span></h4>
+                              <ol>
+                                 <li><a href="http://www.sciencemag.org/search?qbe=sci;1136800&citation=Frey%20and%20Dueck%20%2C%20%20Science%20315%20%285814%29%20972-976.&submit=yes">
+                                       
+                                       <em xmlns="">Science</em> Magazine</a></li>
+                                 <li><a href="http://www.sciencemag.org/external-ref?access_num=sci%3B315%2F5814%2F972&link_type=ISI_RELATEDRECORDS" id="cb-isi-similar-articles" rel="external-nw">Web of Science</a></li>
+                                 <li><a href="http://www.sciencemag.org/external-ref?access_num=17218491&link_type=MED_NBRS" rel="external-nw">PubMed</a></li>
+                              </ol>
+                           </div>
+                           <div class="cb-section cb-subhead" id="cb-art-gs">
+                              <h4 class="cb-section-header"><span>Search Google Scholar for:</span></h4>
+                              <ol>
+                                 <li><a href="http://scholar.google.com/scholar?q=%22author%3AFrey%20author%3AB.J.%22" rel="external-nw">Articles by  Frey, B. J.</a></li>
+                                 <li><a href="http://scholar.google.com/scholar?q=%22author%3ADueck%20author%3AD.%22" rel="external-nw">Articles by  Dueck, D.</a></li>
+                              </ol>
+                           </div>
+                           <div class="cb-section cb-subhead" id="cb-art-pm">
+                              <h4 class="cb-section-header"><span>Search PubMed for:</span></h4>
+                              <ol>
+                                 <li><a href="http://www.sciencemag.org/external-ref?access_num=Frey%20BJ&link_type=AUTHORSEARCH" rel="external-nw">Articles by  Frey, B. J.</a></li>
+                                 <li><a href="http://www.sciencemag.org/external-ref?access_num=Dueck%20D&link_type=AUTHORSEARCH" rel="external-nw">Articles by  Dueck, D.</a></li>
+                              </ol>
+                           </div>
+                           <div class="cb-section cb-subhead" id="cb-art-gs">
+                              <h4 class="cb-section-header"><span>Find Citing Articles in:</span></h4>
+                              <ol>
+                                 <li><a href="http://www.sciencemag.org/external-ref?access_num=%2Fsci%2F315%2F5814%2F972&link_type=ISI_CITING&accnum_type=native" rel="external-nw" id="cb-isi-citing-articles">Web of Science</a></li>
+                                 <li><a href="http://www.sciencemag.org/content/315/5814/972?cited-by=yes&legid=sci;315/5814/972#cited-by" id="cb-hw-citing-articles">Load citing article information</a></li>
+                                 <li><a href="http://www.sciencemag.org/cgi/crossref-forward-links/315/5814/972" rel="external-nw" id="cb-crossref-citing-articles">CrossRef</a></li>
+                                 <li><a href="http://www.sciencemag.org/external-ref?access_num=http://www.sciencemag.org/cgi/content/abstract/315/5814/972&link_type=GOOGLESCHOLAR" rel="external-nw">Google Scholar</a></li>
+                                 <li><a href="http://www.sciencemag.org/scopus-links/sci/315/5814/972?access_num=/sci/315/5814/972" rel="external-nw" id="cb-scopus-citing-articles">Citing articles via Scopus</a></li>
+                              </ol>
+                           </div>
+                        </ol>
+                     </div>
+                  </div>
+               </div>
+               
+               
+               <div class="sidebar" id="lnav-dynamic-block-my-science">
+                  
+                  
+                  <h4><span>My Science</span></h4>
+                  
+                  <ol>
+                     <li id="lnav-my-folders"><a href="http://www.sciencemag.org/cgi/folders">My Folders</a></li>
+                     <li id="lnav-my-alerts"><a href="http://www.sciencemag.org/cgi/alerts/main">My Alerts</a></li>
+                     <li id="lnav-my-saved-searches"><a href="http://www.sciencemag.org/cgi/folders#savedsearch">My Saved Searches</a></li>
+                     <li id="lnav-smart-signin-signout"><a href="http://www.sciencemag.org/login?uri=http%3A%2F%2Fwww.sciencemag.org%2Fcontent%2F315%2F5814%2F972">Sign In</a></li>
+                  </ol>
+                  
+               </div>
+               
+               
+               <div class="sidebar" id="cm_info">
+                  
+                  
+                  <h4><span>More Information</span></h4>
+                  
+                  <h4 class="cb-section-header">More in Collections</h4>
+                  
+                  <ul>
+                     <li><a href="http://www.sciencemag.org/cgi/collection/comp_math">Computers, Mathematics</a></li>
+                  </ul>
+                  
+                  <h4 class="cb-section-header">Related Jobs from ScienceCareers</h4>
+                  
+                  <ul>
+                     <li><a href="http://scjobs.sciencemag.org/search/?t=computer+science">Computer Science</a></li>
+                     <li><a href="http://scjobs.sciencemag.org/search/?t=informatics">Informatics</a></li>
+                     <li><a href="http://scjobs.sciencemag.org/search/?t=mathematics">Mathematics</a></li>
+                  </ul>
+                  
+               </div>
+               
+               
+               
+               
+            </div>
+            <div id="col-3">
+               
+               <div class="Promo" id="Promo160x120">
+                  		<script language="javascript">
+
+			OAS_AD('Right1');
+		</script>
+                  	</div>
+               <div class="Ad" id="Ad160x600">
+                  		<script language="javascript">
+
+			OAS_AD('Right2');
+		</script>
+                  	</div>
+               <div class="Ad" id="Ad160x600">
+                  		
+                  <p class="AdInfo">
+                     			<a href="http://www.sciencemag.org/site/help/advertisers/index.xhtml">To Advertise</a> <span class="Invisible">|</span> <a href="http://www.sciencemag.org/site/products/">Find Products</a>
+                     		
+                  </p>
+                  	
+               </div>
+               
+               
+               
+            </div>
+         </div>
+         <div id="footer">
+            		
+            <div id="ISSNLine">
+               		
+               <p>
+                  			<em>Science</em>. ISSN 0036-8075 (print), 1095-9203 (online)
+                  		
+               </p>
+               	
+            </div>
+            		
+            <div id="FooterWrapper">
+               			<a href="http://www.aaas.org/" title="Go to AAAS website"><img src="logo.aaas.footer.gif" alt="AAAS Logo" id="logo_aaas" height="16" border="0" width="52"></a><a href="http://highwire.stanford.edu/" title="Go to High Wire Press website"><img src="logo.hwp.footer.gif" alt="HWP Logo" id="logo_hwp" height="19" border="0" width="115"></a><div class="footer-links">
+                  			<a href="http://news.sciencemag.org/">News</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/journals/">Science Journals</a> &nbsp;|&nbsp; 
+                  			<a href="http://sciencecareers.sciencemag.org/">Careers</a> &nbsp;|&nbsp; 
+                  			<a href="http://blogs.sciencemag.org/">Blogs and Communities</a> &nbsp;|&nbsp;
+                  			<a href="http://www.sciencemag.org/site/multimedia/">Multimedia</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/cgi/collection">Collections</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/help">Help</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/help/about/site_map.dtl">Site Map</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/rss">RSS</a> 
+                  			
+                  		
+               </div>
+               <div class="footer-links">
+                  			<a href="http://www.sciencemag.org/site/subscriptions">Subscribe</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/cgi/feedback">Feedback</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/site/help/about/privacy.xhtml">Privacy / Legal</a> &nbsp;|&nbsp;
+                  			<a href="http://www.sciencemag.org/site/help/about/index.xhtml">About Us</a> &nbsp;|&nbsp;
+                  			<a href="http://www.sciencemag.org/site/help/advertisers/index.xhtml">Advertise With Us</a> &nbsp;|&nbsp; 
+                  			<a href="http://www.sciencemag.org/site/help/about/contact.xhtml">Contact Us</a> 
+                  		
+               </div>
+               			
+               <div id="copyright">
+                  		
+                  <p><a href="http://www.sciencemag.org/site/help/about/copyright.xhtml">&copy; 2011 American Association for the Advancement of Science.&nbsp;All Rights Reserved</a>.<br>AAAS is a partner of <a target="_top" href="http://www.who.int/hinari/en/">HINARI</a>, <a target="_top" href="http://www.aginternetwork.org/en/">AGORA</a>, <a target="_top" href="http://www.oaresciences.org/en">OARE</a>, <a target="_top" href="http://www.eifl.net/cps/sections/home">eIFL</a>, <a target="_top" href="http://www.patientinform.org/">PatientInform</a>, <a target="_top" href="http://www.crossref.org/">CrossRef</a>, and <a target="_top" href="http://www.projectcounter.org/">COUNTER</a>.
+                  </p>
+                  	
+               </div>
+               		
+            </div>
+            		
+            		<script type="text/javascript" language="JavaScript" src="elqcfg.js"></script><script type="text/javascript" language="JavaScript" src="elqimg.js"></script><script type="text/javascript" language="JavaScript" src="elqcfg_002.js"></script><script type="text/javascript" language="JavaScript" src="elqimg_002.js"></script>
+            		
+            	</div>
+      </div>
+   
+</body>
+</html>
