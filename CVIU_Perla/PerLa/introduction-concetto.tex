@@ -4,32 +4,24 @@
 During the last twenty years, we have assisted to a exponential progress in digital cameras, in network bandwidth and in information storage capacities, which has led to a proliferation of visual data content in the form of images and videos. 
 At the same time, powerful object detection and recognition approaches have been proposed \cite{}, \cite{}, \cite{} which, however, are not able to scale up to many scenarios and objects due mainly to the lack of large labeled training sets.  Indeed, as demonstrated in other research fields \cite{speech}, \cite{bio} the performance of classifiers increases dramatically when a conspicuous set of labeled training data is available. Moreover, ground truth data plays a central role not only for the development of algorithms but also for quantitative performance evaluation, which has also received significant attention by the vision community with the aim to establish a valid reference for a systematic evaluation. 
 %\item Descrivere il perch� si necessit� un GT su larga scala \\
-Therefore,  large scale annotated datasets, covering as much scenarios and objects as possible, are needed in order to train and  evaluate the existing approaches. The main limitation to achieve this goal is the daunting amount of time needed to generate high quality ground truth data which requires a lot of human concentration, in fact it has been estimated that labeling an image may take  take from to two to thirty minutes, depending on the operation, and it is, obviously, even worse in the case of videos. \\
+Therefore,  large scale annotated datasets, covering as much scenarios and objects as possible, are needed in order to train and  evaluate the existing approaches. The main limitation to achieve this goal is the daunting amount of time needed to generate high quality ground truth data which requires a lot of human concentration, in fact it has been estimated that labeling an image may take   from to two to thirty minutes, depending on the operation, and it is, obviously, even worse in the case of videos. \\
 There exist, in the literature, a few attempts \cite{}, \cite{} (which will be reviewed in the next section) performed by some vision groups that have collected consistent annotated datasets which however are too task-oriented and can not be generalised for any object category and scenario.  
 To reach the objective of creating more diverse and larger annotated datasets, collaborative methods, exploiting large population of expert and motivated users, have been proposed \cite{}, \cite{}. 
-One of the most relevant examples is LabelMe \cite{}, a web-based platform to collect user annotations with which a large set of annotations, for training and testing of detection, segmentation and classification algorithms in still images, has been collected.   
-However, LabelMe lacks in intelligent mechanisms to combine and integrate user annotations and, moreover,  
+One of the most relevant examples is LabelMe \cite{}, a web-based platform to collect user annotations with which a large set of annotations, for training and testing of detection, segmentation and classification algorithms in still images, has been collected.  However, the main shortcoming of LabelMe is the lack of in intelligent mechanisms to combine and integrate user annotations, in fact 
+usually an user can delete the annotations provided by other users and create his/her own annotations. Moreover, LabelMe is thought only for image annotation, although a video based version has been proposed that, however, is not as successful and flexible as the image based version.
+Together with the web-based collaborative efforts, approaches for crowd sourcing the annotation effort to non-experts have been proposed \cite{}, \cite{}. However, these approaches lack mainly in mechanisms for testing the reliability of annotators, thence their annotations can not be fully trusted. 
+% Da mettere nei related works --> Ranking of users annotations: "Gold Standard", "Grading" and "Consensus", whereas LabelMe has used a simple but effective method to assess annotation quality, i.e. the number of control points of a polygon.
+%In recent years, there has been interest in 
+%spanning hundreds of object categories and different scenarios, but these represent isolated approaches performed by research group 
+Therefore it appears rather evident which are the current limits of the research in this field. In this paper we propose a web-based approach which aim at overcoming the existing approaches by: 
+1) Approach to guide and speed up the annotation phase, 2) to make the database general enough to be used for different evaluation tasks and 3) to build up benchmarks for a variety of visual patterns, 4) build up a large scale database of labeled data to be used for a variety of visual patterns
 
-not as successful as the image based version
-
-The construction of such datasets has required to crowd source the annotation efforts to non-experts. However these approaches can not be trusted to the unknow capability of online annotators. Ranking of users annotations: "Gold Standard", "Grading" and "Consensus", whereas LabelMe has used a simple but effective method to assess annotation quality, i.e. the number of control points of a polygon.
-
-
-
-
-
-In recent years, there has been interest in 
-
-spanning hundreds of object categories and different scenarios, but these represent isolated approaches performed by research group 
-
-. 
 
 \item Limiti generici delle soluzioni esistenti
 \item Obiettivi della nostra ricerca
 
 Variety of fish species makes it a multi class classification problem.
 Aims:
-1) Approach to guide and speed up the annotation phase, 2) to make the database general enough to be used for different evaluation tasks and 3) to build up benchmarks for a variety of visual patterns, 4) build up a large scale database of labeled data to be used for a variety of visual patterns
 
 The proposed system supports multiple levels of labeling: 1) Scene Level, Object Level and Pixel Level.
 
